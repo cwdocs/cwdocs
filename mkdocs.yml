@@ -1,0 +1,71 @@
+
+# Repository
+repo_name: cwapi3d/cwdocs
+repo_url: https://github.com/cwapi3d/cwdocs
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2022 Cadwork 
+
+site_name: Cadwork Documentation
+site_url: https://docs.cadwork.com/
+theme:
+    name: material
+    nav_style: dark
+    logo: cw_logo.svg  # cwapi3d_logo2.svg # cwapi3d_logo_small.png #cwapi3d_logo.svg 
+    version: v28
+    palette:
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        toggle:
+          name: Switch to light mode
+          icon: material/weather-sunny
+      - media: "(prefers-color-scheme: dark)"
+        scheme: default
+        toggle:
+          name: Switch to light mode
+          icon: material/weather-sunny
+    features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+nav:
+  - Cadwork Documentation: 
+    - Index: index.md
+markdown_extensions:
+  - attr_list  
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences:
+  - footnotes:
+      SEPARATOR: _footnote_
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: cwapi3d
+      repo: cwdocs
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search:
+      separator: '[\s\-\.\_]+'     
+  - mkdocstrings
+    
+             
+extra:
+  generator: false
+  copyright: Copyright &copy; 2022 Cadwork
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cwapi3d
+      name: CWAPI3D
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+      
