@@ -1,4 +1,4 @@
-# Cadwork Python Interface
+# Cadwork Documentation Project
 
 [![RTD](https://img.shields.io/readthedocs/cwdocs)](https://docs.cadwork.com)
 
