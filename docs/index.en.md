@@ -1,5 +1,10 @@
 # Cadwork documentations
 
+<br>
+<br>
+![Referenced SVG](img/logo-cadwork-animated.svg "get cadwork elements")
+<br>
+<br>
 
 <div class="BIM Kompendium" markdown>
 
@@ -24,7 +29,7 @@
 
     Python is a programming language that is well suited for beginners, but also contains all the possibilities that professionals need.
 
-    [:octicons-arrow-right-24: Python Guide :snake:](#){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Python Guide :snake:](https://python.cadwork.dev/en/latest/){ .md-button .md-button--primary }
 
     <br>
     <br>
@@ -36,7 +41,7 @@
     Rhino.Inside Cadwork is a tool that allows embedding Rhino 7 into cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in cadwork. 
     Take advantage of surface modeling in your cadwork 3D environment.
 
-    [:octicons-arrow-right-24: Rhino.Inside Cadwork :rhinoceros: ](#){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Rhino.Inside Cadwork :rhinoceros: ](https://rhinoinsidecadwork.readthedocs.io/en/latest/){ .md-button .md-button--primary }
 
 </div>
 
