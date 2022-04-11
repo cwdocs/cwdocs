@@ -60,7 +60,7 @@
         </style>
         </head>
         <body>
-            <a href="https://cadwork-bim.readthedocs.io/en/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://cadwork-bim.readthedocs.io/de/latest/" target="_blank" class="button" style="color:white;" >
             <span>BIM Kompendium</span></a>
         </body>
         </html>
