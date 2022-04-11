@@ -18,6 +18,7 @@ theme:
     - search.suggest
     - search.highlight
     - navigation.top
+    - content.code.annotate
     # - navigation.instant
 # nav:
   #- Cadwork Documentation: 

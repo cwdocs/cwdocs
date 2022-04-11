@@ -15,7 +15,56 @@
     Le Building Information Modeling (BIM) est une méthode de travail qui permet une planification, une réalisation et une gestion en réseau des bâtiments à l'aide de logiciels. 
     Dans notre compendium BIM, vous trouverez toutes les informations pertinentes sur l'application du BIM au sein de cadwork.
 
-    [:octicons-arrow-right-24: BIM Kompendium](https://cadwork-bim.readthedocs.io/de/latest/){ .md-button .md-button--primary}
+    <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rhino.Inside cadwork</title>
+        <style>
+        .button {
+        background-color: #10069f;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+        .button:hover span {
+        padding-right: 25px;
+        }
+        .button:hover {
+            background-color: #5766cc;
+        }
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+        </style>
+        </head>
+        <body>
+            <a href="https://cadwork-bim.readthedocs.io/de/latest/" target="_blank" class="button" style="color:white;" >
+            <span>BIM Kompendium</span></a>
+        </body>
+        </html>
+
 
 
     <br>
@@ -30,7 +79,56 @@
 
     Python est un langage de programmation qui convient bien aux débutants, mais qui contient également toutes les possibilités dont les professionnels ont besoin.
 
-    [:octicons-arrow-right-24: Python Guide :snake:](https://python.cadwork.dev/en/latest/){ .md-button .md-button--primary }
+    <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rhino.Inside cadwork</title>
+        <style>
+        .button {
+        background-color: #10069f;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+        .button:hover span {
+        padding-right: 25px;
+        }
+        .button:hover {
+            background-color: #5766cc;
+        }
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+        </style>
+        </head>
+        <body>
+            <a href="https://python.cadwork.dev/en/latest/" target="_blank" class="button" style="color:white;" >
+            <span>Python Guide :snake:</span></a>
+        </body>
+        </html>
+
 
     <br>
     <br>
@@ -42,7 +140,55 @@
     Rhino.Inside Cadwork est un outil qui permet d'intégrer Rhino 7 dans cadwork 3D. Grâce à Grasshopper, il est possible de concevoir des algorithmes qui automatisent ensuite les tâches dans cadwork. 
     Profitez des avantages de la modélisation de surface dans votre environnement cadwork 3D.
 
-    [:octicons-arrow-right-24: Rhino.Inside Cadwork :rhinoceros: ](https://rhinoinsidecadwork.readthedocs.io/en/latest/){ .md-button .md-button--primary }
+    <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rhino.Inside cadwork</title>
+        <style>
+        .button {
+        background-color: #10069f;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+        .button:hover span {
+        padding-right: 25px;
+        }
+        .button:hover {
+            background-color: #5766cc;
+        }
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+        </style>
+        </head>
+        <body>
+            <a href="https://rhinoinsidecadwork.readthedocs.io/en/latest/" target="_blank" class="button" style="color:white;" >
+            <span>Rhino.Inside Cadwork :rhinoceros:</span></a>
+        </body>
+        </html>
 
 </div>
 
