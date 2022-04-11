@@ -2,7 +2,7 @@
 
 <br>
 <br>
-![Referenced SVG](img/logo-cadwork-animated.svg "get cadwork elements")
+![Referenced SVG](img/logo-cadwork-animated.svg "")
 <br>
 <br>
 
@@ -60,7 +60,7 @@
         </style>
         </head>
         <body>
-            <a href="https://cadwork-bim.readthedocs.io/de/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://docs.cadwork.com/projects/cwbim/en/latest/" target="_blank" class="button" style="color:white;" >
             <span>BIM Kompendium</span></a>
         </body>
         </html>
@@ -123,7 +123,7 @@
         </style>
         </head>
         <body>
-            <a href="https://python.cadwork.dev/en/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://docs.cadwork.com/projects/cwapi3dpython" target="_blank" class="button" style="color:white;" >
             <span>Python Guide :snake:</span></a>
         </body>
         </html>
@@ -183,7 +183,7 @@
         </style>
         </head>
         <body>
-            <a href="https://rhinoinsidecadwork.readthedocs.io/de/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://docs.cadwork.com/projects/cwrhino/en/latest/" target="_blank" class="button" style="color:white;" >
             <span>Rhino.Inside Cadwork :rhinoceros:</span></a>
         </body>
         </html>
