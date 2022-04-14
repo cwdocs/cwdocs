@@ -60,7 +60,7 @@
         </style>
         </head>
         <body>
-            <a href="https://docs.cadwork.com/projects/cwbim/en/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://docs.cadwork.com/projects/cwbim/en/latest/fr/" target="_blank" class="button" style="color:white;" >
             <span>BIM Kompendium</span></a>
         </body>
         </html>
@@ -185,7 +185,7 @@
         </style>
         </head>
         <body>
-            <a href="https://docs.cadwork.com/projects/cwrhino/en/latest/" target="_blank" class="button" style="color:white;" >
+            <a href="https://docs.cadwork.com/projects/cwrhino/en/latest/fr/" target="_blank" class="button" style="color:white;" >
             <span>Rhino.Inside Cadwork :rhinoceros:</span></a>
         </body>
         </html>
