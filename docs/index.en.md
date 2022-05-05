@@ -130,11 +130,11 @@
     <br>
     <br>
 
--   __Rhino.Inside Cadwork__
+-   __Rhino.Inside cadwork__
 
     ---
 
-    Rhino.Inside Cadwork is a tool that allows embedding Rhino 7 into cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in cadwork. 
+    Rhino.Inside cadwork is a tool that allows embedding Rhino 7 into cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in cadwork. 
     Take advantage of surface modeling in your cadwork 3D environment.
 
     <!DOCTYPE html>
@@ -183,7 +183,7 @@
         </head>
         <body>
             <a href="https://docs.cadwork.com/projects/cwrhino/en/latest/en/" target="_blank" class="button" style="color:white;" >
-            <span>Rhino.Inside Cadwork :rhinoceros:</span></a>
+            <span>Rhino.Inside cadwork :rhinoceros:</span></a>
         </body>
         </html>
 
