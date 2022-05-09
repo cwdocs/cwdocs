@@ -14,16 +14,28 @@ theme:
     nav_style: dark
     logo: cw_logo.svg  # cwapi3d_logo2.svg # cwapi3d_logo_small.png #cwapi3d_logo.svg 
     version: v29
+    palette:
+    - scheme: default
+      toggle:
+        name: Switch to light mode
+        icon: material/weather-sunny
+    - scheme: slate
+      #primary: grey
+      #accent: blue
+      toggle:
+        name: Switch to dark mode
+        icon: material/weather-night
     features:
-    - search.suggest
-    - search.highlight
-    - navigation.top
-    - content.code.annotate
-    # - navigation.instant
+      - search.suggest
+      - search.highlight
+      - navigation.top
+      - content.code.annotate
+# - navigation.instant
 # nav:
   #- Cadwork Documentation: 
     #- Index: index.md
 markdown_extensions:
+  - meta
   - attr_list  
   - md_in_html
   - admonition
@@ -55,10 +67,12 @@ extra:
   copyright: Copyright &copy; 2022 Cadwork
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/cwapi3d
-      name: CWAPI3D
+      # link: https://github.com/cwapi3d
+      name: CwDocs
 
 plugins:
+  - search:
+      separator: '[\s\-\.\_]+'  
   - i18n:
       default_language: de
       languages:
