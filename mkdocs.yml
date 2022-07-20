@@ -1,7 +1,6 @@
 
 # Repository
 repo_name: cwapi3d/cwdocs
-# repo_url: https://github.com/cwapi3d/cwdocs
 edit_uri: ""
 
 # Copyright
@@ -12,7 +11,7 @@ site_url: https://docs.cadwork.com/
 theme:
     name: material
     nav_style: dark
-    logo: cw_logo.svg  # cwapi3d_logo2.svg # cwapi3d_logo_small.png #cwapi3d_logo.svg 
+    logo: cw_logo.svg
     version: v29
     palette:
       - media: "(prefers-color-scheme: light)"
@@ -32,10 +31,6 @@ theme:
       - search.highlight
       - navigation.top
       - content.code.annotate
-# - navigation.instant
-# nav:
-  #- Cadwork Documentation: 
-    #- Index: index.md
 markdown_extensions:
   - meta
   - attr_list  
@@ -69,7 +64,6 @@ extra:
   copyright: Copyright &copy; 2022 Cadwork
   social:
     - icon: fontawesome/brands/github
-      # link: https://github.com/cwapi3d
       name: CwDocs
 
 plugins:
