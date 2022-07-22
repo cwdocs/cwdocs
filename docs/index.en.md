@@ -4,18 +4,9 @@ hide:
   - toc
 ---
 
-
 # Cadwork Documentation
 
 ![Referenced SVG](img/logo-cadwork-animated.svg "")
-
-<!-- <br>
-<br>
-![Referenced SVG](img/logo-cadwork-animated.svg "")
-<br>
-<br>
-
-<div class="BIM Kompendium" markdown> -->
 
 ## BIM Guide
 
