@@ -33,7 +33,7 @@ Cadwork offers an API (Application Programming Interface) for the Python languag
 
 Rhino.Inside Cadwork is a tool that allows embedding Rhino 7 into Cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in Cadwork. Take advantage of surface modeling in your cadwork 3D environment.
 
-[Rhino.Inside cadwork :rhinoceros:](https://docs.cadwork.com/projects/cwrhino/en/latest/en/)<!-- {.button-63} -->
+[Rhino.Inside Cadwork :rhinoceros:](https://docs.cadwork.com/projects/cwrhino/en/latest/en/)<!-- {.button-63} -->
 
 
 <noscript>
