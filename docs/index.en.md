@@ -1,35 +1,39 @@
-# Cadwork documentations
+---
+hide:
+  - navigation
+  - toc
+---
 
-<br>
+
+# Cadwork Documentation
+
+![Referenced SVG](img/logo-cadwork-animated.svg "")
+
+<!-- <br>
 <br>
 ![Referenced SVG](img/logo-cadwork-animated.svg "")
 <br>
 <br>
 
-<div class="BIM Kompendium" markdown>
+<div class="BIM Kompendium" markdown> -->
 
 ## BIM Guide
 
-Building Information Modeling (BIM) is a working method that enables networked planning, execution and management of buildings with the help of software. 
-In our BIM Compendium you will find all relevant information on the application of BIM within cadwork.
+Building Information Modeling (BIM) is a working method that enables networked planning, execution, and management of buildings with the help of software. In our BIM Compendium you will find all relevant information on the application of BIM within Cadwork.
 
-[BIM Compendium](https://docs.cadwork.com/projects/cwbim/en/latest/en/){.button-63}
+[BIM Compendium](https://docs.cadwork.com/projects/cwbim/en/latest/en/)<!-- {.button-63} -->
 
 ## Python-API Guide
 
-Cadwork offers an API (Application-Programming-Interface) for the programming language Python. 
-Programming through the API allows you to create plugins and helper scripts with which, for example, operations can be automated.
+Cadwork offers an API (Application Programming Interface) for the Python language. Programming with this API allows you to create plugins and helper scripts. Python is a programming language that is well suited for beginners, but also contains all the possibilities that professionals need.
 
-Python is a programming language that is well suited for beginners, but also contains all the possibilities that professionals need.
+[Python Guide :snake:](https://docs.cadwork.com/projects/cwapi3dpython)<!-- {.button-63} -->
 
-[Python Guide :snake:](https://docs.cadwork.com/projects/cwapi3dpython){.button-63}
+## Rhino.Inside Cadwork
 
-## Rhino.Inside cadwork
+Rhino.Inside Cadwork is a tool that allows embedding Rhino 7 into Cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in Cadwork. Take advantage of surface modeling in your cadwork 3D environment.
 
-Rhino.Inside cadwork is a tool that allows embedding Rhino 7 into cadwork 3D. Algorithms can be designed via Grasshopper, which then automate tasks in cadwork. 
-Take advantage of surface modeling in your cadwork 3D environment.
-
-[Rhino.Inside cadwork :rhinoceros:](https://docs.cadwork.com/projects/cwrhino/en/latest/en/){.button-63}
+[Rhino.Inside cadwork :rhinoceros:](https://docs.cadwork.com/projects/cwrhino/en/latest/en/)<!-- {.button-63} -->
 
 
 <noscript>

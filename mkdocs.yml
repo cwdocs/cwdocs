@@ -1,45 +1,24 @@
+site_name: Cadwork Documentation
 
-# Repository
-repo_name: cwapi3d/cwdocs
-# repo_url: https://github.com/cwapi3d/cwdocs
+repo_name: cwdocs/cwdocs
+repo_url: https://github.com/cwdocs/cwdocs
 edit_uri: ""
 
-# Copyright
 copyright: Copyright &copy; 2022 Cadwork 
 
-site_name: Cadwork Documentation
 site_url: https://docs.cadwork.com/
+
 theme:
-    name: material
-    nav_style: dark
-    logo: cw_logo.svg  # cwapi3d_logo2.svg # cwapi3d_logo_small.png #cwapi3d_logo.svg 
-    version: v29
-    palette:
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        toggle:
-          name: Switch to light mode
-          icon: material/weather-sunny
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: grey
-        accent: blue
-        toggle:
-          name: Switch to dark mode
-          icon: material/weather-night
-    features:
-      - search.suggest
-      - search.highlight
-      - navigation.top
-      - content.code.annotate
-# - navigation.instant
-# nav:
-  #- Cadwork Documentation: 
-    #- Index: index.md
+  name: material
+  logo: cw_logo.svg
+  favicon: cw_logo.svg
+  version: V29
+  features:
+    - search.suggest
+    - search.highlight
+
 markdown_extensions:
-  - meta
   - attr_list  
-  - md_in_html
   - admonition
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -54,31 +33,29 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: cwapi3d
+      user: cwdocs
       repo: cwdocs
+
 extra_css:
   - stylesheets/extra.css
+
 plugins:
   - search:
       separator: '[\s\-\.\_]+'     
   - mkdocstrings
-    
-             
-extra:
-  generator: false
-  copyright: Copyright &copy; 2022 Cadwork
-  social:
-    - icon: fontawesome/brands/github
-      # link: https://github.com/cwapi3d
-      name: CwDocs
 
 plugins:
   - search:
       separator: '[\s\-\.\_]+'  
   - i18n:
-      default_language: de
+      default_language: en
       languages:
         de: Deutsch
         en: English 
         fr: Français   
-        
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cwdocs
+      name: CWDOCS
