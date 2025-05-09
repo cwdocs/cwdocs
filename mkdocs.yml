@@ -48,11 +48,23 @@ plugins:
   - search:
       separator: '[\s\-\.\_]+'  
   - i18n:
-      default_language: en
+      docs_structure: suffix
+      fallback_to_default: true
       languages:
-        de: Deutsch
-        en: English 
-        fr: Français   
+        - build: true
+          default: false
+          locale: de
+          name: Deutsch
+        - build: true
+          default: true
+          locale: en
+          name: English
+        - build: true
+          default: false
+          locale: fr
+          name: Français
+      reconfigure_material: true
+      reconfigure_search: true
 
 extra:
   social:
